@@ -3,6 +3,7 @@ import FeaturePage from './Pages/FeaturePage'
 import HomePage from './Pages/HomePage'
 import NavbarPage from './Pages/NavbarPage'
 import ServicePage from './Pages/ServicePage'
+import WorkflowPage from './Pages/WorkflowPage'
 
 function Website() {
   return (
@@ -11,6 +12,7 @@ function Website() {
       <HomePage></HomePage>
       <ServicePage></ServicePage>
       <FeaturePage></FeaturePage>
+      <WorkflowPage></WorkflowPage>
     </div>
   )
 }
