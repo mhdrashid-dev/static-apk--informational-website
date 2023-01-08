@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div className='navabr  bg-[rgb(22,22,53)] fixed top-0 left-0 w-full'>
+    <div className='navabr  bg-[rgb(22,22,53)] fixed top-0 left-0 w-full z-50'>
         <div className="content flex justify-between items-center px-5 lg:px-10 text-white w-full h-[10vh]">
             <div className="logo font-jost">
                 <h1 className='text-xl lg:text-2xl 2xl:text-3xl'><i class="fa-solid fa-layer-group"></i>Go On</h1>
