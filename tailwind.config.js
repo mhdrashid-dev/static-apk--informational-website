@@ -7,6 +7,8 @@ module.exports = {
     extend: {
       colors:{
         primary:'rgb(17, 17, 17)',
+        second:'rgb(84, 177, 164)',
+        third:'rgb(57, 58, 137)',
       },
       fontFamily:{
         jost:'Jost'
