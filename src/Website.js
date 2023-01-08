@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutPage from './Pages/AboutPage'
 import FeaturePage from './Pages/FeaturePage'
 import HomePage from './Pages/HomePage'
 import NavbarPage from './Pages/NavbarPage'
@@ -13,6 +14,7 @@ function Website() {
       <ServicePage></ServicePage>
       <FeaturePage></FeaturePage>
       <WorkflowPage></WorkflowPage>
+      <AboutPage></AboutPage>
     </div>
   )
 }
