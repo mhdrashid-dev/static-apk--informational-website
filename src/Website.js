@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutPage from './Pages/AboutPage'
+import ContactPage from './Pages/ContactPage'
 import FeaturePage from './Pages/FeaturePage'
 import HomePage from './Pages/HomePage'
 import NavbarPage from './Pages/NavbarPage'
@@ -17,6 +18,7 @@ function Website() {
       <WorkflowPage></WorkflowPage>
       <AboutPage></AboutPage>
       <ReviewPage></ReviewPage>
+      <ContactPage></ContactPage>
     </div>
   )
 }
