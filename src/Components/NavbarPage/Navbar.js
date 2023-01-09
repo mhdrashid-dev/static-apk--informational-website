@@ -5,6 +5,7 @@ import 'animate.css';
 function Navbar() {
     let [isNavbar,setNavabar]=useState(false);
     let [fade,setFade]=useState('animate__fadeIn');    
+    let [active,setActive]=useState('Home');
 
     let DiableNavbar=(event)=>{
         if(event.target.classList[11]==='animate__fadeOut'){
@@ -12,7 +13,9 @@ function Navbar() {
             setFade('animate__fadeIn');
         }
     }  
-        
+
+    console.log(active);
+
 
   return (
     <div className='navabr  bg-[rgb(22,22,53)] fixed top-0 left-0 w-full z-50'>
@@ -27,12 +30,12 @@ function Navbar() {
             </div>     
             <div className="navlink-pc hidden lg:block">
                 <ul className='flex'>
-                    <li className='mx-6 text-base font-extralight'><a href="#home">Home</a></li>
-                    <li className='mx-6 text-base font-extralight'><a href="#service">The App</a></li>
-                    <li className='mx-6 text-base font-extralight'><a href="#features">Features</a></li>
-                    <li className='mx-6 text-base font-extralight'><a href="#about">About Us</a></li>
-                    <li className='mx-6 text-base font-extralight'><a href="#review">Reviews</a></li>
-                    <li className='mx-6 text-base font-extralight'><a href="#contact">Contact</a></li>
+                    <li className='mx-6 text-base font-extralight'><a href="#home" onClick={(e)=>{console.log(setActive(e.target.innerHTML));}} style={{color:`${active==='Home' ? 'rgb(77, 148, 157)' : 'white'}`}}>Home</a></li>
+                    <li className='mx-6 text-base font-extralight'><a href="#service" onClick={(e)=>{console.log(setActive(e.target.innerHTML));}} style={{color:`${active==='The App' ? 'rgb(77, 148, 157)' : 'white'}`}}>The App</a></li>
+                    <li className='mx-6 text-base font-extralight'><a href="#features" onClick={(e)=>{console.log(setActive(e.target.innerHTML));}} style={{color:`${active==='Features' ? 'rgb(77, 148, 157)' : 'white'}`}}>Features</a></li>
+                    <li className='mx-6 text-base font-extralight'><a href="#about" onClick={(e)=>{console.log(setActive(e.target.innerHTML));}} style={{color:`${active==='About Us' ? 'rgb(77, 148, 157)' : 'white'}`}}>About Us</a></li>
+                    <li className='mx-6 text-base font-extralight'><a href="#review" onClick={(e)=>{console.log(setActive(e.target.innerHTML));}} style={{color:`${active==='Reviews' ? 'rgb(77, 148, 157)' : 'white'}`}}>Reviews</a></li>
+                    <li className='mx-6 text-base font-extralight'><a href="#contact" onClick={(e)=>{console.log(setActive(e.target.innerHTML));}} style={{color:`${active==='Contact' ? 'rgb(77, 148, 157)' : 'white'}`}}>Contact</a></li>
                 </ul>
             </div>
         </div>            
