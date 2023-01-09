@@ -3,7 +3,7 @@ import Home from '../Components/HomePage/Home'
 
 function HomePage() {
   return (
-    <div>
+    <div id='home' className='selection:'>
       <Home></Home>
     </div>
   )

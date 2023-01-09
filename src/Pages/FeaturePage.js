@@ -3,7 +3,7 @@ import Feature from '../Components/FeaturePage/Feature'
 
 function FeaturePage() {
   return (
-    <div>
+    <div id='features'>
       <Feature></Feature>
     </div>
   )

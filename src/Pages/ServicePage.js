@@ -3,7 +3,7 @@ import Service from '../Components/ServicePage/Service'
 
 function ServicePage() {
   return (
-    <div>
+    <div id='service'>
       <Service></Service>
     </div>
   )

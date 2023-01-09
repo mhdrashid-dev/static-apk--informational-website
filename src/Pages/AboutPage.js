@@ -3,7 +3,7 @@ import About from '../Components/AboutPage/About'
 
 function AboutPage() {
   return (
-    <div>
+    <div id='about'>
       <About></About>
     </div>
   )

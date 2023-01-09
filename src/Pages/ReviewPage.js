@@ -3,7 +3,7 @@ import Review from '../Components/ReviewPage/Review'
 
 function ReviewPage() {
   return (
-    <div>
+    <div id='review'>
       <Review></Review>
     </div>
   )
