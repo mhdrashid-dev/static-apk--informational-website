@@ -2,6 +2,7 @@ import React from 'react'
 import AboutPage from './Pages/AboutPage'
 import ContactPage from './Pages/ContactPage'
 import FeaturePage from './Pages/FeaturePage'
+import FooterPage from './Pages/FooterPage'
 import HomePage from './Pages/HomePage'
 import NavbarPage from './Pages/NavbarPage'
 import ReviewPage from './Pages/ReviewPage'
@@ -19,6 +20,7 @@ function Website() {
       <AboutPage></AboutPage>
       <ReviewPage></ReviewPage>
       <ContactPage></ContactPage>
+      <FooterPage></FooterPage>
     </div>
   )
 }
