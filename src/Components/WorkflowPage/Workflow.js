@@ -4,7 +4,7 @@ import LandscapeImg from '../../Assets/phonelandscape.webp'
 
 function Workflow() {
   return (
-    <div className='w-full min-h-[100vh] md:min-h-[10vh] bg-white p-5 md:p-8 font-jost container mx-auto'>
+    <div data-aos="fade-up" data-aos-duration="1500" className='w-full min-h-[100vh] md:min-h-[10vh] bg-white p-5 md:p-8 font-jost container mx-auto'>
         <div className="content-1 w-full h-full flex flex-col md:flex-row md:justify-between lg:items-center">
             <div className="para md:w-1/3 ">
                 <h1 className='text-3xl mb-5 xl:text-4xl'>How the App Works</h1>

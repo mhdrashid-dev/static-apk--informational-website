@@ -4,7 +4,7 @@ import Apple from '../../Assets/applebadge.webp'
 
 function Footer() {
   return (
-    <div className='w-full min-h-[40vh] md:min-h-[20vh] bg-white px-5 py-16'>
+    <div data-aos="fade-up" data-aos-duration="1500" className='w-full min-h-[40vh] md:min-h-[20vh] bg-white px-5 py-16'>
         <div className="contents font-jost md:flex md:justify-between container mx-auto lg:px-20 lg:items-center">
             <div className="content-1">
                 <div className="heading flex my-3 md:mb-10">

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Feature() {
   return (
-    <div className='features w-full min-h-[100vh] md:min-h-[50vh] bg-gradient-to-tr from-third to-second text-white font-jost py-5 px-4 ' style={{boxShadow:'inset 0px 0px 5000px 100px black'}}>
+    <div data-aos="fade-up" data-aos-duration="1500" className='features w-full min-h-[100vh] md:min-h-[50vh] bg-gradient-to-tr from-third to-second text-white font-jost py-5 px-4 ' style={{boxShadow:'inset 0px 0px 5000px 100px black'}}>
         <div className="heading my-5 md:px-5  lg:px-14 container mx-auto">
             <h1 className='text-3xl my-6 lg:text-5xl font-normal'>Features</h1>
             <h1 className='font-extralight my-5'>I'm title.Click here to add <br className='lg:hidden'/> your own text and edit me</h1>

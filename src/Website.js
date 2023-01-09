@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import AboutPage from './Pages/AboutPage'
 import ContactPage from './Pages/ContactPage'
 import FeaturePage from './Pages/FeaturePage'
@@ -8,8 +8,15 @@ import NavbarPage from './Pages/NavbarPage'
 import ReviewPage from './Pages/ReviewPage'
 import ServicePage from './Pages/ServicePage'
 import WorkflowPage from './Pages/WorkflowPage'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function Website() {
+
+  useEffect(()=>{
+    AOS.init();
+  },[])
+
   return (
     <div>
       <NavbarPage></NavbarPage>

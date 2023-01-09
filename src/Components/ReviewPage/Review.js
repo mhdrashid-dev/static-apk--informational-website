@@ -2,7 +2,7 @@ import React from 'react'
 
 function Review() {
   return (
-    <div className='w-full min-h-[100vh] md:min-h-[50vh] bg-[rgb(248,248,248)] font-jost  myb-5 p-4 2xl:pt-28'>
+    <div data-aos="fade-up" data-aos-duration="1500" className='w-full min-h-[100vh] md:min-h-[50vh] bg-[rgb(248,248,248)] font-jost  myb-5 p-4 2xl:pt-28'>
       <div className="heading container mx-auto">
         <h1 className='text-3xl xl:text-4xl 2xl:text-5xl'>Satisfied <br /> Cutomers</h1>
       </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='about min-h-[50vh] md:min-h-[25vh] lg:min-h-[60vh] md:px-20 w-full bg-gradient-to-tl from-third to-second p-6 text-white font-jost md:flex md:justify-between md:items-center ' style={{boxShadow:'inset 0px 0px 100px 10px black'}}>
+    <div data-aos="fade-up" data-aos-duration="1500" className='about min-h-[50vh] md:min-h-[25vh] lg:min-h-[60vh] md:px-20 w-full bg-gradient-to-tl from-third to-second p-6 text-white font-jost md:flex md:justify-between md:items-center ' style={{boxShadow:'inset 0px 0px 100px 10px black'}}>
       <div className='container mx-auto w-full h-full md:flex md:justify-between md:items-center'>
         <div className="heading md:w-1/2 xl:w-2/3">
             <h1 className='text-3xl xl:text-4xl 2xl:text-5xl my-10'>Our Story</h1>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Service() {
   return (
-    <div className='service w-full h-[70vh] bg-white flex flex-col justify-around items-start p-5 md:flex-row md:items-start md:h-[38vh] md:pt-16 lg:h-[65vh] lg:px-7 lg:py-10 xl:h-[50vh] xl:px-20 2xl:px-52 2xl:py-20'>
+    <div data-aos="fade-up" data-aos-duration="1500" className='service w-full h-[70vh] bg-white flex flex-col justify-around items-start p-5 md:flex-row md:items-start md:h-[38vh] md:pt-16 lg:h-[65vh] lg:px-7 lg:py-10 xl:h-[50vh] xl:px-20 2xl:px-52 2xl:py-20'>
         <div className="para-1 font-jost md:w-1/2 xl:w-2/3 2xl:w-3/4">
             <h1 className='text-3xl text-gray-700 xl:text-4xl 2xl:text-5xl'>Reinviting Mobile <br /> Technology</h1>
         </div>

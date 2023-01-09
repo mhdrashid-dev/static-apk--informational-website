@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className='w-full min-h-[50vh] p-5 md:p-10 bg-gradient-to-br from-[rgb(104,116,212)] to-[rgb(13,21,41)]' style={{boxShadow:'inset 0px 10px 300px 10px black'}}>
+    <div data-aos="fade-up" data-aos-duration="1500" className='w-full min-h-[50vh] p-5 md:p-10 bg-gradient-to-br from-[rgb(104,116,212)] to-[rgb(13,21,41)]' style={{boxShadow:'inset 0px 10px 300px 10px black'}}>
         <div className="content w-full h-full container mx-auto my-5 font-jost text-white lg:flex lg:justify-between lg:items-start xl:px-20">
             <div className="heading my-5 lg:w-1/2 xl:w-2/3">
                 <h1 className='text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl'>For any Assistance <br /> Required Please <br />Reach Out</h1>
